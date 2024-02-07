@@ -1,0 +1,34 @@
+{
+    "name": "ringerWidget",
+    "version": "1.0.0",
+    "description": "Представлены пример использования и рекомендуемая структура проекта.\r Решение использует сборщик gulp для разработки в режиме liveServer. В html возможно исопльзовать шаблонизатор с помощью директивы @@include. Поддерживаются es6 модули.",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.21.8",
+        "browser-sync": "^2.29.3",
+        "del": "^6.0.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-better-rollup": "^4.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-cssimport": "^7.0.0",
+        "gulp-file-include": "^2.3.0",
+        "gulp-group-css-media-queries": "^1.2.2",
+        "gulp-inline-source": "^4.0.0",
+        "gulp-replace": "^1.1.4",
+        "rollup": "^1.32.1",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://gitint.elewise.com/elma365/hard-code/frontend-gulp-template.git"
+    }
+}
